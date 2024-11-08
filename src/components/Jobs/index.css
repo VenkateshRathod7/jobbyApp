@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.jobscontainer {
+  display: flex;
+  padding: 30px;
+}
+
+.filterItems {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.jobslists {
+  flex: 1;
+  padding: 10px;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #444;
+  margin: 10px 0;
+}
+
+.profile-card {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.profile-avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.profile-info h2 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.profile-info p {
+  margin: 0;
+  color: #bbb;
+}
+
+.filter-item:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+/* Add this to your index.css */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px; /* Adjust icon size */
+}
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-item {
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+}
+
+.job-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.job-details {
+  flex: 1;
+}
+.employment-type-filter {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.filter-item {
+  margin: 10px 0;
+}
+
+.filter-item label {
+  margin-left: 8px;
+}
+
+h3 {
+  margin-bottom: 12px;
+}
+.profile-card {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/profile-bg.png);
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 20px;
+  height: 100px;
+}
+
+.profile-avatar img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-info {
+  color: #333;
+}
+
+.profile-info h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #3b82f6; /* Matches the blue color in your screenshot */
+}
+
+.profile-info p {
+  font-size: 1rem;
+  margin: 5px 0 0;
+  color: #555;
+}
+.salary-range-filter {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.filter-item {
+  margin: 10px 0;
+}
+
+.filter-item label {
+  margin-left: 8px;
+}
+
+h3 {
+  margin-bottom: 12px;
+}

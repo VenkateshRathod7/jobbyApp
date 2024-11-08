@@ -1,0 +1,35 @@
+.bg-containerhome {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.find-jobs-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.find-jobs-button:hover {
+  background-color: #0056b3; 
+}
+
+.home-image {
+  position: absolute;
+
+  right: 20px; 
+  max-width: 300px; 
+
+}

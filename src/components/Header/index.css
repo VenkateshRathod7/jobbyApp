@@ -1,0 +1,60 @@
+.nav-header {
+  background-color: #272727;
+  width: 100%; /* Full width of the viewport */
+  background-size: cover; /* Ensure background covers area if an image is used */
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  gap: 20px; /* Added gap for better spacing */
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+p {
+  color: white;
+  margin-left: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .nav-content {
+    flex-direction: column; /* Stack elements on smaller screens */
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    flex-direction: column; /* Stack menu items vertically */
+    gap: 10px; /* Adjust gap for mobile */
+  }
+}
+.logout-desktop-btn {
+  background-color: #4f46e5;
+  border: white;
+  color: white;
+  padding: 5px;
+}
+ul {
+  list-style-type: none; /* Removes the bullet points */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+}
